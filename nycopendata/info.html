@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NYC Coffee Shops</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="nav">
+
+    <h1>NYC Coffee Shops</h1>
+
+    <div>
+        <a href="index.html">Home</a>
+        <a href="info.html">Information</a>
+        <a href="analysis.html">Analysis</a>
+    </div>
+
+</div>
+
+<div class="content">
+
+    <h2>Coffee Shop Information</h2>
+
+    <p>
+        This page displays coffee shops in New York City.
+        You can search and filter coffee shops by name, neighborhood, or borough.
+    </p>
+
+    <input id="searchBox" placeholder="Search coffee shop name">
+    <button onclick="searchData()">Search</button>
+    <button onclick="resetData()">Reset</button>
+
+    <div id="results" class="results">
+
+        <div class="card">
+            <h3>Blue Bottle Coffee</h3>
+            <p><strong>Borough:</strong> Manhattan</p>
+            <p><strong>Neighborhood:</strong> Flatiron District</p>
+        </div>
+
+        <div class="card">
+            <h3>Joe Coffee Company</h3>
+            <p><strong>Borough:</strong> Manhattan</p>
+            <p><strong>Neighborhood:</strong> Greenwich Village</p>
+        </div>
+
+        <div class="card">
+            <h3>Birch Coffee</h3>
+            <p><strong>Borough:</strong> Manhattan</p>
+            <p><strong>Neighborhood:</strong> Upper West Side</p>
+        </div>
+
+        <div class="card">
+            <h3>Café Grumpy</h3>
+            <p><strong>Borough:</strong> Brooklyn</p>
+            <p><strong>Neighborhood:</strong> Greenpoint</p>
+        </div>
+
+        <div class="card">
+            <h3>Devoción</h3>
+            <p><strong>Borough:</strong> Brooklyn</p>
+            <p><strong>Neighborhood:</strong> Williamsburg</p>
+        </div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
